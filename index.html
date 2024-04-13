@@ -51,7 +51,7 @@
 
        var templateText = document.getElementById('majorTemplate').innerHTML;
        var compiledTemplateText = Handlebars.compile(templateText);   // get and compile template code
-       compiledHtml = compiledTemplateText({ rows: meal_items })      // apply data to template
+       compiledHtml = compiledTemplateText({ rows: major_items })      // apply data to template
        document.getElementById('majorTable').innerHTML = compiledHtml; 
     }
     else {
